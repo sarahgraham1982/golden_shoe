@@ -7,7 +7,8 @@ import New from './components/New';
 import Heels from './components/Heels';
 import Boots from './components/Boots';
 import Flats from './components/Flats';
-// import HomePage from './components/HomePage';
+import HomePage from './components/HomePage';
+import CustomerService from './components/CustomerService';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Header />
         <NavBar />
         <Switch>
-        {/* <Route exact path="/" component={HomePage} /> */}
+        <Route exact path="/" component={HomePage} />
         <Route path="/new" component={New} />
         <Route path="/heels" component={Heels} />
         </Switch>
