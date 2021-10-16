@@ -23,6 +23,9 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/new" component={New} />
         <Route path="/heels" component={Heels} />
+        <Route path="/boots" component={Boots} />
+        <Route path="/flats" component={Flats} />
+        <Route path="/customer-service" component={CustomerService} />
         </Switch>
       </>
     </Router>
