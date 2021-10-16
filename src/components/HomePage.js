@@ -1,9 +1,16 @@
 import React from 'react';
-// import '../css/HomePage.css';
+import { Link } from "react-router-dom";
+import welcome from './welcome.png';
+import '../css/HomePage.css';
 
 const HomePage = () => {
     return (
-        <h1>hello</h1>
+
+        <div className="welcome-image">
+        <img src={welcome} alt="welcome" className="responsive" ></img>        
+        </div> 
+       
+
     );
 };
 
