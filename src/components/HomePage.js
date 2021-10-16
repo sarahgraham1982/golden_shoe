@@ -1,9 +1,9 @@
 import React from 'react';
-import '../css/HomePage.ss';
+import '../css/HomePage.css';
 
 const HomePage = () => {
     return (
-        null
+        <h1>hello</h1>
     );
 };
 
