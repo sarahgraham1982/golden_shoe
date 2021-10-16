@@ -9,12 +9,14 @@ import Boots from './components/Boots';
 import Flats from './components/Flats';
 import HomePage from './components/HomePage';
 import CustomerService from './components/CustomerService';
+import AnnouncementBar from './components/AnnouncementBar';
 
 function App() {
   return (
     // <h1> hello world</h1>
     <Router>
       <>
+        <AnnouncementBar />
         <Header />
         <NavBar />
         <Switch>
