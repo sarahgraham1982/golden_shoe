@@ -1,0 +1,13 @@
+.announcement-bar {
+    
+    height: auto;
+    background-color: rgba(237, 234, 234, 0.925);
+    padding: 1px;
+    
+}
+
+.announcement-bar {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
