@@ -2,7 +2,8 @@
     
     height: auto;
     background-color: rgba(237, 234, 234, 0.925);
-    padding: 1px;
+    padding: 5px;
+    
     
 }
 
@@ -10,4 +11,20 @@
     margin: 0 auto;
     text-align: center;
     width: 100%;
+}
+
+.announcement-bar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.announcement-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.announcement-bar a:hover {
+    
+    color: hotpink;
 }
