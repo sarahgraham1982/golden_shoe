@@ -21,6 +21,7 @@ li {
     margin: 00;       
     width: 100%;     
     text-align: center;
+    
 }
 
 .NavBar li {
@@ -42,12 +43,25 @@ li {
 
 .NavBar a {
     text-decoration: none;
+    color: #000;
 }
 
 .NavBar ul {
     margin: 0;
     padding: 0;
+    border: 1px solid #555;
 }
+
+.NavBar a:hover {
+    
+    color: hotpink;
+  }
+
+  
+  
+  
+
+  
 
 
 
