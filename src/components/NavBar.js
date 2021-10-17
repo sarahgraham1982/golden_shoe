@@ -12,7 +12,7 @@ const NavBar = () => {
               <ul>
                 
                 <li>
-                  <Link to="/new">New In</Link>
+                  <Link to="/new">New</Link>
                 </li>
                 <li>
                   <Link to="/heels">Heels</Link>
@@ -22,6 +22,15 @@ const NavBar = () => {
                 </li>
                 <li>
                   <Link to="/flats">Flats</Link>
+                </li>
+                <li>
+                  <Link to="/sandals">Sandals</Link>
+                </li>
+                <li>
+                  <Link to="/trainers">Trainers</Link>
+                </li>
+                <li>
+                  <Link to="/slippers">Slippers</Link>
                 </li>
                 
               </ul>

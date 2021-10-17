@@ -17,8 +17,8 @@ li {
 
 .NavBar {
     display: block;  
-    padding: 0;      
-    margin: 0;       
+    padding: 00;      
+    margin: 00;       
     width: 100%;     
     text-align: center;
 }
@@ -27,6 +27,7 @@ li {
     display: inline-block; /* Get all images to show in a row */
     width: 5%;            /* Show 4 logos per row */
     text-align: center;    /* Centre align the images */
+    padding: 10px;
     
 }
 
@@ -56,10 +57,6 @@ li {
 
 
 
-@media only screen and (max-width : 768px) {
-    .menu li{
-      display: block;
-    }
-  }
+
 
 
