@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import './App.css';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
@@ -31,7 +32,7 @@ function App() {
         <Route path="/sandles" component={Sandles} />
         <Route path="/trainers" component={Trainers} />
         <Route path="/slippers" component={Slippers} />
-        <Route path="/customer-service" component={CustomerService} />
+        <Route path="/customerservice" component={CustomerService} />
         </Switch>
       </>
     </Router>
