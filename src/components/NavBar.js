@@ -10,9 +10,7 @@ const NavBar = () => {
           <div className="Nav-Container">
             <div className="NavBar">
               <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
+                
                 <li>
                   <Link to="/new">New In</Link>
                 </li>
@@ -25,9 +23,7 @@ const NavBar = () => {
                 <li>
                   <Link to="/flats">Flats</Link>
                 </li>
-                <li>
-                  <Link to="/customer-service">Customer Service</Link>
-                </li>
+                
               </ul>
               
             </div>

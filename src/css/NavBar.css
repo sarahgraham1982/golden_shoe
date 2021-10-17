@@ -1,19 +1,51 @@
-.NavBar {
+/* .NavBar {
     text-align: center;
 }
 
 ul {
     list-style: none;
     margin-bottom: 1;
-    padding: 0;
-    
-    
+    padding: 0;    
 }
 
 li {
     display: inline;
     padding: 20px;
     
+} */
+
+
+.NavBar {
+    display: block;  
+    padding: 0;      
+    margin: 0;       
+    width: 100%;     
+    text-align: center;
+}
+
+.NavBar li {
+    display: inline-block; /* Get all images to show in a row */
+    width: 5%;            /* Show 4 logos per row */
+    text-align: center;    /* Centre align the images */
+    
+}
+
+@media (max-width: 960px) and (min-width: 501px) {
+    .NavBar li { width: 100%; } 
+    
+}
+
+@media (max-width: 500px) {
+    .NavBar li { width: 100%; } /* On small screens, show one logo per row */
+}
+
+.NavBar a {
+    text-decoration: none;
+}
+
+.NavBar ul {
+    margin: 0;
+    padding: 0;
 }
 
 
