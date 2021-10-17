@@ -49,7 +49,8 @@ li {
 .NavBar ul {
     margin: 0;
     padding: 0;
-    border: 1px solid #555;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .NavBar a:hover {
