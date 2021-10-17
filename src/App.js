@@ -14,6 +14,8 @@ import Slippers from './components/Slippers';
 import HomePage from './components/HomePage';
 import CustomerService from './components/CustomerService';
 import AnnouncementBar from './components/AnnouncementBar';
+import ContactForm from './components/ContactForm';
+
 
 function App() {
   return (
@@ -33,6 +35,7 @@ function App() {
         <Route path="/trainers" component={Trainers} />
         <Route path="/slippers" component={Slippers} />
         <Route path="/customerservice" component={CustomerService} />
+        <Route path="/contactform" component={ContactForm} />
         </Switch>
       </>
     </Router>
