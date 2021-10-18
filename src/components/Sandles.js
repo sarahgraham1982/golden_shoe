@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/Sandles.css'
 
 const Sandles = () => {
     return (

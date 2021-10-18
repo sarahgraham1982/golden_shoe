@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/Boots.css'
 
 const Boots = () => {
     return (

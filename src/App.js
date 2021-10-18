@@ -16,6 +16,7 @@ import CustomerService from './components/CustomerService';
 import AnnouncementBar from './components/AnnouncementBar';
 import ContactForm from './components/ContactForm';
 import Cart from './components/Cart';
+import TopLinks from './components/TopLinks';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <Router>
       <>
         <AnnouncementBar />
+        <TopLinks />
         <Header />
         <NavBar />
         <Switch>

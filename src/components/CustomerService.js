@@ -1,11 +1,14 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm';
+import '../css/CustomerService.css'
 
 const CustomerService = () => {
     return (
         <>
-            <h1>CUSTOMER SERVICE</h1> 
-            <ContactForm />                        
+            <div className="customer-service">
+                <h1>CUSTOMER SERVICE</h1> 
+                <ContactForm /> 
+            </div>                       
         </>
         
         
