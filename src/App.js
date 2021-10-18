@@ -17,6 +17,7 @@ import AnnouncementBar from './components/AnnouncementBar';
 import ContactForm from './components/ContactForm';
 import Cart from './components/Cart';
 import TopLinks from './components/TopLinks';
+import Success from './components/Success';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Route path="/customerservice" component={CustomerService} />
         <Route path="/contactform" component={ContactForm} />
         <Route path="/Cart" component={Cart} />
+        <Route path="/Success" component={Success} />
         </Switch>
       </>
     </Router>
