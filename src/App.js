@@ -40,8 +40,8 @@ function App() {
         <Route path="/slippers" component={Slippers} />
         <Route path="/customerservice" component={CustomerService} />
         <Route path="/contactform" component={ContactForm} />
-        <Route path="/Cart" component={Cart} />
-        <Route path="/Success" component={Success} />
+        <Route path="/cart" component={Cart} />
+        <Route path="/success" component={Success} />
         </Switch>
       </>
     </Router>
