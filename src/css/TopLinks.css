@@ -1,4 +1,4 @@
-.top-links {
+/* .top-links {
     display: block;  
     padding: 0;      
     margin: 0;       
@@ -26,10 +26,28 @@
 }
 
 @media (max-width: 500px) {
-    .top-links li { width: 100%; } /* On small screens, show one logo per row */
+    .top-links li { width: 100%; } 
 }
 
 .top-links li {
     display:inline;
     padding: 10px 40px;
+} */
+
+.top-links {    
+    overflow: hidden;
+    margin-right: 70px;
+   
+}
+
+.top-links img {
+    height: 30px ;
+    width: 30px;    
+}
+
+.top-links li {
+    list-style-type:none;
+    float: right;
+    
+    
 }
