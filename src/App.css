@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   
+  
 }
 
 .App-logo {
@@ -37,5 +38,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Removes white space at the right side */
+html, body { overflow-x:hidden; } 
+
 
 
