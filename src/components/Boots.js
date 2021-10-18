@@ -3,7 +3,9 @@ import '../css/Boots.css'
 
 const Boots = () => {
     return (
-        <h1>BOOTS</h1>
+        <div className="boots-title">
+            <h1>BOOTS</h1>
+        </div>
     )
 }
 

@@ -3,7 +3,9 @@ import '../css/New.css'
 
 const New = () => {
     return (
-        <h1>NEW IN</h1>
+        <div className="new-title">
+            <h1>NEW IN</h1>
+        </div>
     )
 }
 

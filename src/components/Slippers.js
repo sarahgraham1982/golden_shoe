@@ -3,7 +3,9 @@ import '../css/Slippers.css'
 
 const Slippers = () => {
     return (
-        <h1>SLIPPERS</h1>
+        <div className="slippers-title">
+            <h1>SLIPPERS</h1>
+        </div>
     )
 }
 

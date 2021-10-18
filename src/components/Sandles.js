@@ -3,7 +3,9 @@ import '../css/Sandles.css'
 
 const Sandles = () => {
     return (
-        <h1>SANDLES</h1>
+        <div className="sandles-title">
+            <h1>SANDLES</h1>
+        </div>
     )
 }
 

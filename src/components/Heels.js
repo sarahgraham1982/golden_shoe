@@ -3,7 +3,9 @@ import '../css/Heels.css'
 
 const Heels = () => {
     return (
-        <h1>HEELS</h1>
+        <div className="heels-title">
+            <h1>HEELS</h1>
+        </div>
     )
 }
 

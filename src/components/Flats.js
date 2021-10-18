@@ -3,7 +3,9 @@ import '../css/Flats.css'
 
 const Flats = () => {
     return (
-        <h1>FLATS</h1>
+        <div className="flats-title">
+            <h1>FLATS</h1>
+        </div>
     )
 }
 
