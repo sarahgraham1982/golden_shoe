@@ -15,6 +15,7 @@ import HomePage from './components/HomePage';
 import CustomerService from './components/CustomerService';
 import AnnouncementBar from './components/AnnouncementBar';
 import ContactForm from './components/ContactForm';
+import Cart from './components/Cart';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path="/slippers" component={Slippers} />
         <Route path="/customerservice" component={CustomerService} />
         <Route path="/contactform" component={ContactForm} />
+        <Route path="/Cart" component={Cart} />
         </Switch>
       </>
     </Router>
