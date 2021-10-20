@@ -1,6 +1,7 @@
 .collapse-button {
     display: block;
     width: 100%;
+    
   }
   
   .collapse-content.collapsed {
@@ -10,3 +11,7 @@
   .collapsed-content.expanded {
     display: block;
   }
+
+  
+
+  

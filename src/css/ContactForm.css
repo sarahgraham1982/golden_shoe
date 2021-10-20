@@ -3,8 +3,14 @@
 
 .form-wrapper {
     padding: 5px 20px;
+    margin-bottom: 50px;
 }
 
 .form-wrapper fieldset {
     margin: 20px 0;
 }
+
+.input {
+    width: 375px;
+    height: 25px;
+   }
