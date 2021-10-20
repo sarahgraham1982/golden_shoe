@@ -1,0 +1,17 @@
+.shoe-container {
+    display: inline-block;
+    border-style: solid;
+    border-color: #948e2f;
+    margin: 20px;
+    
+    
+}
+
+
+.shoe-image {
+    max-width: 500px;
+}
+
+.shoe-details {
+    text-align: center;
+}

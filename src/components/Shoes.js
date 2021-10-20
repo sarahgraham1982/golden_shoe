@@ -1,5 +1,5 @@
 import StoreInventory from '../components/StoreInventory';
-
+import '../css/Shoes.css';
 
 // const FilteredShoes = StoreInventory.reduce((res, shoe) => {
 //   if (!res[shoe.department]) {
@@ -15,10 +15,16 @@ const Shoes = () => {
       <div>  
             
         {StoreInventory.map(data => (  
-          <> 
-          <img src={data.image} alt={data.title}/>      
-          <p>{data.title}</p>
-          <p>{data.price}</p>
+          <>
+          <div className="shoe-container">
+            <div className="shoe-image">
+              <img src={data.image} alt={data.title} className="responsive"/> 
+            </div> 
+            <div className="shoe-details">   
+              <p>{data.title}</p>
+              <p>{data.price}</p>
+            </div> 
+          </div>
           
           </>             
         ))}   
