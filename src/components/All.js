@@ -9,6 +9,7 @@ const All = () => {
             <h1>SHOP ALL</h1>
             {/* <StoreInventory /> */}
             {/* <Shoes /> */}
+            
         </div>
     )
 }

@@ -27,7 +27,6 @@ const ContactForm = () => {
             <Link to='/success'>
             <button type="button" className="button-title">Submit</button>
             </Link>
-            {/* <button type="submit">Submit</button> */}
             </form>
         </div>
     )
