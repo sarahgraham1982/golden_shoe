@@ -1,6 +1,42 @@
 
 
 const StoreInventory = [
+  {
+    title: "Leanne",
+    price: "£50",
+    image: "/Images/new1.png",
+    department: "New",
+  },
+  {
+    title: "Tia",
+    price: "£70",
+    image: "/Images/new2.png",
+    department: "New",
+  },
+  {
+    title: "Brandy",
+    price: "£65",
+    image: "/Images/new3.png",
+    department: "New",
+  },
+  {
+    title: "Kitty",
+    price: "£45",
+    image: "/Images/new4.png",
+    department: "New",
+  },
+  {
+    title: "Shona",
+    price: "£70",
+    image: "/Images/new5.png",
+    department: "New",
+  },
+  {
+    title: "Florence",
+    price: "£50",
+    image: "/Images/new6.png",
+    department: "New",
+  },
     {
       title: "Rebecca",
       price: "£55",
@@ -145,6 +181,7 @@ const StoreInventory = [
       image: "/Images/slipper4.png",
       department: "Slippers",
     },
+    
     
     
   ];

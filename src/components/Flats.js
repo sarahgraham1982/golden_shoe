@@ -5,9 +5,9 @@ import '../css/Shoes.css'
 const Flats = () => {
     return (
         <>
-        <div className="page-title">
+        <div className="page">
             <h1>FLATS</h1>
-        </div>
+        
 
         <div>    
             
@@ -27,6 +27,7 @@ const Flats = () => {
                       
         ))}   
              
+      </div>
       </div>
       </> 
     )

@@ -5,9 +5,9 @@ import '../css/Shoes.css'
 const Sandles = () => {
     return (
         <>
-        <div className="page-title">
+        <div className="page">
             <h1>SANDLES</h1>
-        </div>
+        
 
         <div>    
             
@@ -27,6 +27,7 @@ const Sandles = () => {
                       
         ))}   
              
+      </div>
       </div>
       </> 
     )

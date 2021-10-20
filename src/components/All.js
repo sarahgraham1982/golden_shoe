@@ -4,12 +4,13 @@ import '../css/Shoes.css'
 
 const All = () => {
     return (
-        <div className="page-title">
+        <>
+        <div className="page">
             <h1>SHOP ALL</h1>
-            
-            <Shoes />
-            
+        
+        <Shoes />
         </div>
+        </>
     )
 }
 

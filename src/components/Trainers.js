@@ -5,9 +5,9 @@ import '../css/Shoes.css'
 const Trainers = () => {
     return (
         <>
-        <div className="page-title">
+        <div className="page">
             <h1>TRAINERS</h1>
-        </div>
+        
 
         <div>    
             
@@ -27,6 +27,7 @@ const Trainers = () => {
                       
         ))}   
              
+      </div>
       </div>
       </> 
     )

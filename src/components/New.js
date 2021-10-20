@@ -1,11 +1,35 @@
 import React from 'react';
-import '../css/New.css'
+import StoreInventory from '../components/StoreInventory';
+import '../css/Shoes.css'
 
 const New = () => {
     return (
-        <div className="new-title">
-            <h1>NEW IN</h1>
-        </div>
+        <>
+        <div className="page">
+            <h1>NEW ARRIVALS</h1>
+        
+
+        <div>    
+            
+        {StoreInventory.filter(inv =>
+        inv.department == "New").map(data => (  
+
+          <div className="shoe-container">
+            <div className="shoe-image">
+              <img src={data.image} alt={data.title} className="responsive"/> 
+            </div> 
+            <div className="shoe-details">   
+              <p>{data.title}</p>
+              <p>{data.price}</p>
+            </div> 
+          </div>
+          
+                      
+        ))}   
+             
+      </div>
+      </div>
+      </> 
     )
 }
 
