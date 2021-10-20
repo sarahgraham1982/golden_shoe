@@ -1,5 +1,6 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
+import SizeChart from './SizeChart.png';
 
 const Faq = () => {    
     return (
@@ -32,7 +33,8 @@ const Faq = () => {
                     <p>Refunds will be issued to the original payment method within 7 working days.</p>
                 </Collapsible>
                 <Collapsible trigger={<button>SIZE CHART</button>}>
-                    <p>blah blah blah</p>                        
+                    <p></p> 
+                    <img src={SizeChart} />                     
                 </Collapsible>
             </div>
                 
