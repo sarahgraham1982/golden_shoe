@@ -13,16 +13,16 @@ const ContactForm = () => {
             <fieldset>
                 <label>
                     <p>Name</p>
-                    <input name="name" size="50" />
+                    <input name="name" size="40" />
                 </label>
                 <label>
                     <p>Email</p>
-                    <input name="email" size="50" />
+                    <input name="email" size="40" />
                 </label>
                 <label>
                     <p>Message</p>
                     {/* <input name="message" type="text"  /> */}
-                    <textarea rows="5" cols="42" ></textarea>
+                    <textarea rows="5" cols="34"  ></textarea>
                 </label>
             </fieldset>
             <Link to='/success'>
