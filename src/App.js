@@ -19,6 +19,7 @@ import ContactForm from './components/ContactForm';
 import Cart from './components/Cart';
 import TopLinks from './components/TopLinks';
 import Success from './components/Success';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         <Route path="/cart" component={Cart} />
         <Route path="/success" component={Success} />
         </Switch>
+        <Footer />
       </>
     </Router>
 
