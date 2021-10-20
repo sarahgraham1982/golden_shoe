@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import '../css/ContactForm.css'
 
 const ContactForm = () => {
@@ -23,7 +24,10 @@ const ContactForm = () => {
                     <input name="name" />
                 </label>
             </fieldset>
-            <button type="submit">Submit</button>
+            <Link to='/success'>
+            <button type="button" className="button-title">Submit</button>
+            </Link>
+            {/* <button type="submit">Submit</button> */}
             </form>
         </div>
     )
