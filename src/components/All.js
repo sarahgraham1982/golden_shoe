@@ -1,10 +1,10 @@
 import React from 'react';
 import Shoes from '../components/Shoes';
-import '../css/All.css'
+import '../css/Shoes.css'
 
 const All = () => {
     return (
-        <div className="all-title">
+        <div className="page-title">
             <h1>SHOP ALL</h1>
             
             <Shoes />

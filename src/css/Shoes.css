@@ -2,9 +2,7 @@
     display: inline-block;
     border-style: solid;
     border-color: #948e2f;
-    margin: 20px;
-    
-    
+    margin: 20px;    
 }
 
 
@@ -14,4 +12,10 @@
 
 .shoe-details {
     text-align: center;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 50px;
+    
 }
