@@ -56,9 +56,21 @@ const StoreInventory = [
       department: "Flats",
     },
     {
+      title: "Marissa",
+      price: "£55",
+      image: "/Images/flat4.png",
+      department: "Flats",
+    },
+    {
+      title: "Debbie",
+      price: "£50",
+      image: "/Images/flat5.png",
+      department: "Flats",
+    },
+    {
       title: "Karla",
       price: "£45",
-      image: "/Images/flat4.png",
+      image: "/Images/flat6.png",
       department: "Flats",
     },
     {
@@ -86,6 +98,18 @@ const StoreInventory = [
       department: "Boots",
     },
     {
+      title: "Skye",
+      price: "£95",
+      image: "/Images/boot5.png",
+      department: "Boots",
+    },
+    {
+      title: "Rhonda",
+      price: "£105",
+      image: "/Images/boot6.png",
+      department: "Boots",
+    },
+    {
       title: "Geri",
       price: "£65",
       image: "/Images/heel1.png",
@@ -107,6 +131,18 @@ const StoreInventory = [
       title: "Emma",
       price: "£55",
       image: "/Images/heel4.png",
+      department: "Heels",
+    },
+    {
+      title: "Diana",
+      price: "£55",
+      image: "/Images/heel5.png",
+      department: "Heels",
+    },
+    {
+      title: "Kate",
+      price: "£55",
+      image: "/Images/heel6.png",
       department: "Heels",
     },
     {
@@ -134,6 +170,18 @@ const StoreInventory = [
       department: "Sandles",
     },
     {
+      title: "Zelda",
+      price: "£55",
+      image: "/Images/sandle5.png",
+      department: "Sandles",
+    },
+    {
+      title: "Mandy",
+      price: "£60",
+      image: "/Images/sandle6.png",
+      department: "Sandles",
+    },
+    {
       title: "Jessica",
       price: "£55",
       image: "/Images/trainer1.png",
@@ -158,6 +206,18 @@ const StoreInventory = [
       department: "Trainers",
     },
     {
+      title: "Gayle",
+      price: "£60",
+      image: "/Images/trainer5.png",
+      department: "Trainers",
+    },
+    {
+      title: "Lisa",
+      price: "£40",
+      image: "/Images/trainer6.png",
+      department: "Trainers",
+    },
+    {
       title: "Stephanie",
       price: "£30",
       image: "/Images/slipper1.png",
@@ -179,6 +239,18 @@ const StoreInventory = [
       title: "Leia",
       price: "£30",
       image: "/Images/slipper4.png",
+      department: "Slippers",
+    },
+    {
+      title: "Gwyneth",
+      price: "£25",
+      image: "/Images/slipper5.png",
+      department: "Slippers",
+    },
+    {
+      title: "Angelica",
+      price: "£35",
+      image: "/Images/slipper6.png",
       department: "Slippers",
     },
     
