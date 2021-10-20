@@ -148,14 +148,9 @@ const StoreInventory = [
     
     
   ];
-  
-  const shoes = ShoeInventory.reduce((res, shoe) => {
-    if (!res[shoe.department]) {
-      res[shoe.department] = [];
-    }
-    res[shoe.department].push(shoe);
-    return res;
-  }, {});
 
   export default StoreInventory;
-  export default shoes;
+
+
+  
+  

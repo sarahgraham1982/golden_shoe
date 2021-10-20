@@ -10,7 +10,9 @@ const NavBar = () => {
           <div className="Nav-Container">
             <div className="NavBar">
               <ul>
-                
+                <li>
+                  <Link to="/all">Shop All</Link>
+                </li>
                 <li>
                   <Link to="/new">New</Link>
                 </li>

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
+import All from './components/All';
 import New from './components/New';
 import Heels from './components/Heels';
 import Boots from './components/Boots';
@@ -31,6 +32,7 @@ function App() {
         <NavBar />
         <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route path="/all" component={All} />
         <Route path="/new" component={New} />
         <Route path="/heels" component={Heels} />
         <Route path="/boots" component={Boots} />

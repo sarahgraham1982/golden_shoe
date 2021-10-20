@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import '../css/Cart.css';
 
 const Cart = () => {
@@ -6,7 +7,7 @@ const Cart = () => {
         <>
             <div className="cart-title">
                 <h1>YOUR CART IS EMPTY</h1>
-                <h3>Let's go shopping!</h3>
+                <Link to="/all">Let's go shopping!</Link>
             </div>
         </>
         
