@@ -34,7 +34,7 @@ const Faq = () => {
                 </Collapsible>
                 <Collapsible trigger={<button>SIZE CHART</button>}>
                     <p></p> 
-                    <img src={SizeChart} />                     
+                    <img src={SizeChart} alt="size-chart" className="responsive" />                     
                 </Collapsible>
             </div>
                 
