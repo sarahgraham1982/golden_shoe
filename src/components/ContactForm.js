@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/ContactForm.css'
 
 const ContactForm = () => {
     return (
@@ -33,3 +34,6 @@ const ContactForm = () => {
 
 
 export default ContactForm;
+
+
+
