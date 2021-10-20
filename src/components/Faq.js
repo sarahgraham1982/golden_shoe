@@ -13,7 +13,10 @@ const Faq = () => {
                     <p>All UK orders are shipped via The Royal Mail taking around 3-5 working days.</p>
                     <p>Orders placed during the weekend or bank holidays will be despatched the next working day.</p>                        
                     <p><b>UK RETURNS</b></p>
-                    <p></p>
+                    <p>We offer free UK returns!</p>
+                    <p>To return your unworn items, please wrap in original packaging securely and download a free shipping label from: <a href="https://www.royalmail.com/track-my-return/create/491">HERE</a></p>
+                    <p>Please include your returns form in the parcel. If you have misplaced the returns form, please enclose a covering letter with your name, address and order number.</p>
+                    <p>Refunds will be issued to the original payment method within 7 working days.</p>
                 </Collapsible>
                 <Collapsible trigger={<button>INTERNATIONAL DELIVERY & RETURNS</button>}>
                     <p><b>INTERNATIONAL SHIPPING</b></p>
@@ -26,7 +29,7 @@ const Faq = () => {
                     <p>To return your unworn items, please wrap in original packaging securely and ship to the following address: The Golden Shoe, 22 Bond Street, London, E15 1LT</p>
                     <p>Please include your returns form in the parcel. If you have misplaced the returns form, please enclose a covering letter with your name, address and order number.</p>
                     <p>Please note that we do not currently offer free returns so you will need to pay for the return postage.</p>
-                    <p>Refunds will be issued to the original payment method </p>
+                    <p>Refunds will be issued to the original payment method within 7 working days.</p>
                 </Collapsible>
                 <Collapsible trigger={<button>SIZE CHART</button>}>
                     <p>blah blah blah</p>                        
